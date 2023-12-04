@@ -11,7 +11,9 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ECommerce.Api.Orders", "ECo
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ECommerce.Api.Search", "ECommerce.Api.Search\ECommerce.Api.Search.csproj", "{854A9CCB-64A3-453A-B0A8-968765C908FF}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ECommerce.Api.Products.Tests", "ECommerce.Api.Products.Tests\ECommerce.Api.Products.Tests.csproj", "{B1006F07-D20E-479B-BD9C-370636145258}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ECommerce.Api.Products.Tests", "ECommerce.Api.Products.Tests\ECommerce.Api.Products.Tests.csproj", "{B1006F07-D20E-479B-BD9C-370636145258}"
+EndProject
+Project("{E53339B2-1760-4266-BCC7-CA923CBCF16C}") = "docker-compose", "docker-compose.dcproj", "{E74EBAD8-2715-4B5E-99D2-67C30E797AEC}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -83,6 +85,18 @@ Global
 		{B1006F07-D20E-479B-BD9C-370636145258}.Release|x64.Build.0 = Release|Any CPU
 		{B1006F07-D20E-479B-BD9C-370636145258}.Release|x86.ActiveCfg = Release|Any CPU
 		{B1006F07-D20E-479B-BD9C-370636145258}.Release|x86.Build.0 = Release|Any CPU
+		{E74EBAD8-2715-4B5E-99D2-67C30E797AEC}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{E74EBAD8-2715-4B5E-99D2-67C30E797AEC}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{E74EBAD8-2715-4B5E-99D2-67C30E797AEC}.Debug|x64.ActiveCfg = Debug|Any CPU
+		{E74EBAD8-2715-4B5E-99D2-67C30E797AEC}.Debug|x64.Build.0 = Debug|Any CPU
+		{E74EBAD8-2715-4B5E-99D2-67C30E797AEC}.Debug|x86.ActiveCfg = Debug|Any CPU
+		{E74EBAD8-2715-4B5E-99D2-67C30E797AEC}.Debug|x86.Build.0 = Debug|Any CPU
+		{E74EBAD8-2715-4B5E-99D2-67C30E797AEC}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{E74EBAD8-2715-4B5E-99D2-67C30E797AEC}.Release|Any CPU.Build.0 = Release|Any CPU
+		{E74EBAD8-2715-4B5E-99D2-67C30E797AEC}.Release|x64.ActiveCfg = Release|Any CPU
+		{E74EBAD8-2715-4B5E-99D2-67C30E797AEC}.Release|x64.Build.0 = Release|Any CPU
+		{E74EBAD8-2715-4B5E-99D2-67C30E797AEC}.Release|x86.ActiveCfg = Release|Any CPU
+		{E74EBAD8-2715-4B5E-99D2-67C30E797AEC}.Release|x86.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
